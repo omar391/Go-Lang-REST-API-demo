@@ -43,7 +43,7 @@ func TestSearchAPI(t *testing.T) {
 
 	var list []modules.Clinic
 
-	json.Unmarshal([]byte(w.Body.String()), &list)
+	json.Unmarshal(w.Body.Bytes(), &list)
 
 	if len(list) != 1 {
 		t.Errorf("Count got: %v , want: 1", len(list))
