@@ -9,6 +9,11 @@
 <br>⭐ Included `POSTMAN` collections for easier testing.
 
 <br>
+
+### `POSTMAN` API testing:
+
+![image](https://user-images.githubusercontent.com/13569609/113068853-f5f35980-91e0-11eb-97ef-2993223487aa.png)
+
 <br>
 
 ## How to config
